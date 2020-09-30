@@ -1,0 +1,30 @@
+body{
+    background: aqua;
+}
+/* .full{
+    background-color: #472F5F;
+    border: 1px solid red;
+} */
+.container{
+    margin-top: 100px;
+    background: beige;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+.formSixe{
+    width: 75%;
+    margin-top: 20px;
+    margin: auto;
+}
+/* .alert{
+    width: 70%;
+    margin-top: 20px;
+    margin: auto;
+} */
+.heading{
+    margin-top: 20px;
+}
+.result{
+    padding-top: 20px;
+}

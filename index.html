@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Guesser Game</title>
+</head>
+<body>
+    <section class="full">
+        <div class="container"> 
+            <div class="row">
+                <div class="alert text-center alert-primary col-md-9 col-12 mx-auto mt-4">
+                    <h3 id="GuessContent" >Guess A number between 0 to 10</h3>
+                </div>
+        </div><br>
+           
+                <form class="d-flex justify-content-center formSixe">
+                    <input type="number" required="" class="form-control d-inline">
+                    <button class="btn btn-info  ml-auto" id="guessBtn">Guess</button>
+                </form>
+
+                <div class="row">
+                    <div class="col-md-9 col-12 mx-auto mt-4">
+                        <div class="card">
+                            <div class="card-header result-board bg-secondary text-center text-light">
+                                <h4>Result</h4>
+                            </div>
+                            <div class="card-body text-center result">
+                                <h3 id="ifMatched">You have 3 guess left! Hurry Up!!</h3>
+                            </div>
+                       
+                        </div>
+                    </div>
+                </div>
+        
+            
+        </div>
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
