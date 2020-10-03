@@ -11,12 +11,18 @@ guessBtn.addEventListener("click",function(e){
     if(total <= 3){
         if(randomValue == guessValue ){
             ifMatched.innerHTML = "got lucky! You have won.";
+            alert("You Win");
             guessBtn.disabled = true;
             //console.log("Matched");
         }else if (total == 3) {
             ifMatched.innerHTML = ` Unlucky! You have Lost. result was ${randomValue}`;
             guessBtn.disabled = true;
         }else{
+            if(randomValue > guessValue ){
+                alert("Correct answer is greater!");
+            }else{
+                alert("Correct answer is smaller!");
+            }
             ifMatched.innerHTML = `You have ${3-total} guess left! Hurry Up!!`
             total = total+1;
         }
